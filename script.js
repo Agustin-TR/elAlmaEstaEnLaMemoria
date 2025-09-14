@@ -56,3 +56,27 @@ window.addEventListener('DOMContentLoaded', () => {
 
   updateActiveItem();
 });
+
+window.addEventListener('load', () => {
+  const imagenes = Array.from(document.querySelectorAll('li')).map(item =>
+    item.getAttribute('data-bg')
+  );
+
+  let cargadas = 0;
+  const total = imagenes.length;
+
+  imagenes.forEach(src => {
+    const img = new Image();
+    img.src = src;
+    img.onload = () => {
+      cargadas++;
+      if (cargadas === total) {
+        const preloader = document.getElementById('preloader');
+        preloader.classList.add('fade-out');
+        setTimeout(() => {
+          preloader.remove();
+        }, 600);
+      }
+    };
+  });
+});
