@@ -67,6 +67,21 @@
     </Transition>
   </Teleport>
 
+  <!-- IG -->
+<div class="ig-link">
+  <a href="https://instagram.com/agustinrojas_7" target="_blank" rel="noopener noreferrer">
+    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"
+      fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+      stroke-linejoin="round">
+      <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+      <path d="M16 11.37a4 4 0 1 1-2.63-2.63 4 4 0 0 1 2.63 2.63z"/>
+      <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+    </svg>
+    <span>@agustinrojas_7</span>
+  </a>
+  
+</div>
+
   <!-- CONTRATAPA -->
   <section class="pantalla section-contratapa" id="contratapa">
     <h3 class="info-titulo">Contratapa</h3>
@@ -410,6 +425,36 @@ export default {
 .modal-leave-to .modal-3d {
   transform: scale(0.96);
   opacity: 0;
+}
+
+/* ═══════════════════════════════════
+   INSTAGRAM
+═══════════════════════════════════ */
+.ig-link {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.ig-link a {
+  color: #005f6a;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.45rem;
+  text-decoration: none;
+}
+
+.ig-link a:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+.ig-link span {
+  font-size: 0.9rem;
+  letter-spacing: 0.05em;
 }
 
 /* ═══════════════════════════════════
