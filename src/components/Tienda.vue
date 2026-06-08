@@ -4,7 +4,7 @@
     <div class="libros m-5">
 
       <div class="version">
-        <h3>Versión impresa <br>(PRE-VENTA)</h3>
+        <h3>Versión impresa</h3>
 
         <!-- Foto con botón 3D superpuesto -->
         <div class="foto-libro">
@@ -26,6 +26,8 @@
 
         <p>
           Poemario. 40 poemas / 40 fotos. <br>
+          Cada imagen fue elegida con precisión para complementar a un poema. <br>
+          La experiencia invita a descubrir un misterio: ¿por qué cada foto acompaña a ese poema? La respuesta no está dada, se revela en la lectura y en la interpretación personal. <br> 
           Edición en papel 90g, con cubierta ilustrada.
           Envío gratis dentro de CABA.
         </p>

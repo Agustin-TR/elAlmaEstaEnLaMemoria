@@ -69,7 +69,7 @@ export default {
                     alias: 'agustin.t.rojas',
                     tienda: 'El alma está en la memoria',
                     nombre: 'Agustín Tomas Rojas',
-                    valor: '$25.000 ARS',
+                    valor: '$30.000 ARS',
                     info: 'El pago se realiza mediante link de pago de Mercado Pago. Una vez abonado, serás redirigido a una pantalla de confirmación para que completes tus datos de contacto.',
                     transferencia: 'También podes transferir y hablarme directamente por las redes sociales para coordinar el envío. (Por favor, recordá enviar el comprobante)'
                 },
